@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script type="module">
+    import hotwiredTurbo from 'https://cdn.skypack.dev/@hotwired/turbo';
+  </script>
+  <title>Test case</title>
+</head>
+<body>
+  <div data-turbo-permanent>
+    <turbo-frame id="user-nav" src="user_nav.html">
+      <a>Sign In</a>
+    </turbo-frame>
+  </div>
+  <ul>
+    <li><a href="index.html">Page 1</a></li>
+    <li><strong>Page 2</strong></li>
+  </ul>
+  <h1>Page 2 Content</h1>
+</body>
+</html>
